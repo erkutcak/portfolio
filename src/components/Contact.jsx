@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { useEffect, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'

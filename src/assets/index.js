@@ -1,10 +1,13 @@
 import logo from "./logo.png";
 import logo1 from "./logo1.png";
+import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import medium from "./medium.png";
 import world from "./world.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -44,6 +47,9 @@ export {
   mobile,
   web,
   github,
+  medium,
+  linkedin,
+  instagram,
   world,
   menu,
   close,

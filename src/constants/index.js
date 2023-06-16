@@ -26,6 +26,10 @@ import {
     python,
     flask,
     vitelogo,
+    linkedin,
+    github,
+    medium,
+    instagram,
   } from "../assets";
   
   export const navLinks = [
@@ -45,20 +49,24 @@ import {
   
   const services = [
     {
-      title: "Full-Stack Development",
-      icon: web,
+      title: "Linkedin",
+      icon: linkedin,
+      profile: "https://www.linkedin.com/in/erkutcakmak/",
     },
     {
-      title: "Software Engineering",
-      icon: mobile,
+      title: "Github",
+      icon: github,
+      profile: "https://github.com/erkutcak",
     },
     {
-      title: "Frontend Development",
-      icon: creator,
+      title: "Medium",
+      icon: medium,
+      profile: "https://medium.com/@cakmak.erkut1",
     },
     {
-      title: "Backend Development",
-      icon: backend,
+      title: "Instagram",
+      icon: instagram,
+      profile: "https://www.instagram.com/erkutcakmak/",
     },
   ];
   
@@ -125,7 +133,7 @@ import {
       iconBg: "#383E56",
       date: "Nov 2022 - Present",
       points: [
-        "Participated in a 15-week intensive Software Engineering bootcamp at Flatiron School upon self-teaching for 9 months in advance.",
+        "Participated in an intensive Software Engineering bootcamp at Flatiron School upon self-teaching for 9 months.",
         "Collaborated with teammates in building; 2 frontend, 1 backend, and 1 full-stack, total of 4 projects. Completed the bootcamp with an individual full-stack project",
         "Became proficient in Javascript, React, Next.js, Python, Flask, REST, Prisma, PostgreSQL, SQLite, SQLAlchemy, CSS, and HTML.",
         "Successfully passed 4 different code challenges at the end of every phase of the program.",
