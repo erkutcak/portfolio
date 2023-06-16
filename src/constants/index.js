@@ -145,7 +145,7 @@ import {
       ],
     },
     {
-      title: "General Manager",
+      title: "Sr. Project Manager",
       company_name: "BCS",
       icon: bcs,
       iconBg: "#383E56",

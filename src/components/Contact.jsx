@@ -5,6 +5,8 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { slideIn } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
 
 const Contact = () => {
   const formRef = useRef();
@@ -40,7 +42,10 @@ const Contact = () => {
       )
       .then(() => {
         setLoading(false);
-        alert('Thank you. I will get back to you as soon as possible.');
+        toast('📨 Thank you for your message!', {
+          hideProgressBar: false,
+          autoClose: 4600,
+        });
 
         setForm({
           name: '',
@@ -50,14 +55,18 @@ const Contact = () => {
       }, (error) => {
         setLoading(false);
         console.log(error);
-
-        alert('Something went wrong.')
+        toast('⛔ Oops! Something went wrong.', {
+          hideProgressBar: false,
+          autoClose: 4600,
+          type: "error",
+        });
       })
   }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+        <ToastContainer/>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>contact.</h3>
 
