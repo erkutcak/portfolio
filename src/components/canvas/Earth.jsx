@@ -5,10 +5,19 @@ import CanvasLoader from '../Loader'
 
 const Earth = () => {
 
-  const earth = useGLTF('./planet/scene.gltf')
+  const earth = useGLTF('./earth/scene.gltf')
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0}/>
+    <mesh>
+      <primitive object={earth.scene} scale={1.8} position-y={0} rotation-y={0}/>
+      <spotLight
+        position={[-3, 5, 0]} // Position the spotlight above the scene
+        angle={Math.PI / 2} // Set the spotlight angle to control the spread of light
+        penumbra={.2} // Set the penumbra value to create a soft edge
+        intensity={3} // Adjust the intensity of the spotlight
+        castShadow // Enable shadow casting
+      />
+    </mesh>
   )
 }
 
