@@ -3,6 +3,10 @@ import {
     backend,
     creator,
     erkut,
+    linkedintext,
+    githubtext,
+    instagramtext,
+    mediumtext,
     web,
     javascript,
     html,
@@ -53,22 +57,22 @@ import {
   
   const services = [
     {
-      title: "Linkedin",
+      title: linkedintext,
       icon: linkedin,
       profile: "https://www.linkedin.com/in/erkutcakmak/",
     },
     {
-      title: "Github",
+      title: githubtext,
       icon: github,
       profile: "https://github.com/erkutcak",
     },
     {
-      title: "Medium",
+      title: mediumtext,
       icon: medium,
       profile: "https://medium.com/@cakmak.erkut1",
     },
     {
-      title: "Instagram",
+      title: instagramtext,
       icon: instagram,
       profile: "https://www.instagram.com/erkutcakmak/",
     },

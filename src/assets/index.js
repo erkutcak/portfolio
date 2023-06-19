@@ -12,6 +12,10 @@ import world from "./world.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import erkut from "./erkut.jpg";
+import linkedintext from "./linkedintext.png";
+import githubtext from "./githubtext.png";
+import instagramtext from "./instagramtext.png";
+import mediumtext from "./mediumtext.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -41,6 +45,10 @@ import cocktailrater from "./cocktailrater.png";
 export {
   logo,
   logo1,
+  linkedintext,
+  githubtext,
+  instagramtext,
+  mediumtext,
   erkut,
   backend,
   creator,

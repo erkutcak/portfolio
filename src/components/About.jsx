@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon, profile }) => {
         onClick={() => window.open(profile, "_blank")}
         >
           <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <img src={title} alt={title} className='text-white text-[20px] font-bold text-center'/>
         </div>
       </motion.div>
     </Tilt>
