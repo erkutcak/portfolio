@@ -41,6 +41,7 @@ import audiohouse from "./audiohouse.png";
 import dibs from "./dibs.png";
 import hangman from "./hangman.png";
 import cocktailrater from "./cocktailrater.png";
+import quoted from "./quoted.png";
 
 export {
   logo,
@@ -73,6 +74,7 @@ export {
   dibs,
   hangman,
   cocktailrater,
+  quoted,
   audiohouse,
   flatiron,
   mysa,

@@ -22,6 +22,7 @@ import {
     dibs,
     hangman,
     cocktailrater,
+    quoted,
     audiohouse,
     threejs,
     prisma,
@@ -314,6 +315,32 @@ import {
       image: audiohouse,
       source_code_link: "https://github.com/mad-jane/phase-2-project/tree/main/music-project",
       production_link: "https://audio-house-git-main-mad-jane.vercel.app/",
+    },
+    {
+      name: "-quoted.",
+      description:
+        "A full-stack quote app that authenticates and lets users create and edit their account, display, submit, edit, like, and delete quotes. Backend handled by Firebase.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "noSQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: quoted,
+      source_code_link: "https://github.com/erkutcak/quoted",
+      production_link: "https://quoted-seven.vercel.app/",
     },
     {
       name: "Hangman",
